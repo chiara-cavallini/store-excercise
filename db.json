@@ -1,0 +1,55 @@
+{ "film": [
+  {
+    "id": "3f8a39b4-293b-49fb-a6a9-6e1fb30e0d9e",
+    "title": "Inception",
+    "description": "Thriller psicologico, 148 minuti"
+  },
+  {
+    "id": "a99fa192-fd62-4b86-8976-dc8cf29e57bf",
+    "title": "Interstellar",
+    "description": "Fantascienza, 169 minuti"
+  },
+  {
+    "id": "0eb058c4-d676-4992-af9a-4750d3fe643b",
+    "title": "The Shawshank Redemption",
+    "description": "Drammatico, 142 minuti"
+  },
+  {
+    "id": "714e352e-83a6-45a1-975a-99f6c4e9c7c6",
+    "title": "The Dark Knight",
+    "description": "Azione, 152 minuti"
+  },
+  {
+    "id": "6a63cc9d-79db-4f02-b2e2-8d6e0a947892",
+    "title": "Pulp Fiction",
+    "description": "Crime, 154 minuti"
+  }
+],
+  "products": [
+    {
+      "id": "68ab13e7-81ab-4f43-b2a2-0ed54d15c907",
+      "title": "MacBook Pro",
+      "description": "Laptop, 1500 euro"
+    },
+    {
+      "id": "c48615b8-1881-4b6d-aa89-c78e05e300d9",
+      "title": "iPhone 13",
+      "description": "Smartphone, 1000 euro"
+    },
+    {
+      "id": "db97de09-7980-4655-8914-575b110b870d",
+      "title": "Samsung QLED TV",
+      "description": "Televisione, 2000 euro"
+    },
+    {
+      "id": "b13c0f2c-c05f-4a1a-8632-d24a34dc2e95",
+      "title": "PlayStation 5",
+      "description": "Console da gioco, 500 euro"
+    },
+    {
+      "id": "f8219516-78f1-4865-9e47-35aa5359c6bc",
+      "title": "AirPods Pro",
+      "description": "Cuffie wireless, 250 euro"
+    }
+  ]
+}

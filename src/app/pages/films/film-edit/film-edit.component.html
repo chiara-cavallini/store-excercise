@@ -1,0 +1,12 @@
+<form [formGroup]="itemForm">
+    <div>
+      <label for="title">Titolo:</label>
+      <input type="text" id="name" formControlName="title">
+    </div>
+    <div>
+      <label for="description">Descrizione:</label>
+      <input type="text" id="description" formControlName="description">
+    </div>
+    <button (click)="updateItem()">Salva</button>
+  </form>
+  

@@ -1,0 +1,7 @@
+
+<ul>
+    <li *ngFor="let item of list">
+        <a>{{ item.title + ' - ' + item.description + ' - ' + '(' + item.id + ')' }}</a>
+        <button (click)="edit(item.id ?? '')">Modifica</button>
+    </li>
+</ul>
