@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http'
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FilmListComponent } from './pages/films/film-list/film-list.component';
 import { FilmEditComponent } from './pages/films/film-edit/film-edit.component';
@@ -18,6 +17,8 @@ import { StoreModule } from "@ngrx/store";
 import { StoreDevtoolsModule } from "@ngrx/store-devtools";
 import { environment } from "../environments/environment";
 import {SharedModule} from "./shared/shared.module";
+import {EffectsModule} from "@ngrx/effects";
+import {appReducers} from "./store/store.reducers";
 
 
 @NgModule({
@@ -38,10 +39,11 @@ import {SharedModule} from "./shared/shared.module";
     BrowserAnimationsModule,
     SharedModule,
     RouterOutlet,
-    StoreModule.forRoot({}),
+    StoreModule.forRoot({state: appReducers}),
     StoreDevtoolsModule.instrument({
       logOnly: environment.production
-    })
+    }),
+    EffectsModule.forRoot([])
   ],
   providers: [],
   bootstrap: [AppComponent]
